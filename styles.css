@@ -1,0 +1,98 @@
+.layout{
+	display: flex;
+}
+aside{
+	background-color: darkblue;
+	width: 20%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	align-items: center;
+
+
+
+
+}
+aside img{
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+	margin-top: 20px;
+	
+
+}
+aside ul{
+	list-style-type: none;
+
+}
+aside ul li a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size:20px ;
+
+
+}
+aside ul li {
+		margin-top:30px ;
+
+}
+
+main{
+	background-color: lightblue;
+	width: 78%;
+	height: 100vh;
+	padding-left: 20px;
+
+
+}
+main h1 {
+	font-size: 40px;
+	text-align: center;
+}
+ main h1 span{
+ 	color: blue;
+ 	font-size: 40px;
+ 	font-family:sans-serif ;
+
+ }
+ main h2, h3{
+ 	text-align: center;
+ 	font-weight: bold;
+ 	font-family: sans-serif;
+ }
+
+	
+ 
+
+
+ footer{
+ 	width: 98%;
+ 	background-color: black;
+
+ }
+ .fa-facebook{
+ 	
+ 	font-size: 25px;
+ }
+ .fa-youtube{
+ 	font-size: 25px;
+ }
+ .fa-intagram{
+ 	font-size: 25px;
+ }
+
+ .grid-container{
+ 	display: inline-grid;
+ }
+
+ .blog{
+ 	display: flex;
+ 	justify-content: space-evenly;
+ }
+ .blog.first{
+ 	width: 70px;
+ 	height: 80%;
+ 	background-color: white;
+ }
